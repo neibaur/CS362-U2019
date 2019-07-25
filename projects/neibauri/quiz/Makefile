@@ -6,8 +6,6 @@ Quiz: testme.c
 	gcc -o testme -g  testme.c $(CFLAGS)
 	./testme >> unittestresults.out
 	gcov testme.c >> unittestresults.out
-
-all: playdom player 
-
+    
 clean:
-	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe
+	rm -f *.o *.gcov *.gcda *.gcno *.so *.out

@@ -1,3 +1,15 @@
+// Isaac Neibaur Quiz 1 7/24/2019
+
+// Code for random string genartion was mofidied from code found on
+//https://www.codeproject.com/Questions/640193/Random-string-in-language-C
+//
+//    static const char alphanum[] =     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+//
+//    for (int i = 0; i < len; ++i) {
+//        s[i] = alphanum[rand() % (sizeof(alphanum) - 1)];
+//    }
+//    s[len] = 0;
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -58,8 +70,8 @@ void testme()
        && s[4] == 't' && s[5] == '\0'
        && state == 9)
     {
-      printf("error ");
-      exit(200);
+      printf("error ");    
+        exit(200);
     }
   }
 }
